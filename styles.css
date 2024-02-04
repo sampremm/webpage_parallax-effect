@@ -5,12 +5,12 @@
 }
 
 #wrapper {
-    height: 100vh;
+    height: 100vh;   
     overflow-y:auto;
     overflow-x: hidden;
     perspective: 10px;
     position: relative;
-
+  
 }
 
 .container {
@@ -24,13 +24,15 @@
 
 }
 .b{
-    transform: translatez(-20px) scale(3);
+    transform: translatez(-10px) scale(2);
 
 
 }
 .f{
-    transform: translate(-40px) scale(1);
+    transform: translate(-20px) scale1(1);
     
+    align-items: ;
+
 }
 
 .f, .b {
@@ -75,13 +77,13 @@ section{
     background-position:center;
 }
 .big1{
-    background-image:url(sport-1.jpg);
+    background-image:url(/Users/sampremkumar/Documents/GitHub/webpage_parallax-effect/img/sport-1.jpg);
 }
 .big2{
-    background-image: url(sport-2.jpg);
+    background-image: url(/Users/sampremkumar/Documents/GitHub/webpage_parallax-effect/img/sport-2.jpg);
 }
 .big3{
-    background-image:url(sport-3.jpg);
+    background-image:url(/Users/sampremkumar/Documents/GitHub/webpage_parallax-effect/img/sport-3.jpg);
 }
 .ii{
     position: absolute;
